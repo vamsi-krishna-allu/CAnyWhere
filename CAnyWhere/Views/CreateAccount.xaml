@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAnyWhere.Views.CreateAccount">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Entry x:Name="entryusernameca"
+       Placeholder="Enter Username"
+       TextChanged="OnUserNameEntryTextChanged"
+       Completed="OnUserNameEntryCompleted"
+       ClearButtonVisibility="WhileEditing"/>
+
+            <Entry x:Name="entrypasswordca"
+       Placeholder="Enter Password"
+       TextChanged="OnPasswordEntryTextChanged"
+       Completed="OnPasswordEntryCompleted" 
+       ClearButtonVisibility="WhileEditing"
+                   IsPassword="true"/>
+
+            <Entry x:Name="entrypasswordagainca"
+       Placeholder="Re Enter Password"
+       TextChanged="OnPasswordEntryTextChanged"
+       Completed="OnPasswordEntryCompleted" 
+       ClearButtonVisibility="WhileEditing"
+                   IsPassword="true"/>
+
+            <Button
+                x:Name="SignUpBtnca"
+                Text="Create Account"
+                Clicked="OnSignUp"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
