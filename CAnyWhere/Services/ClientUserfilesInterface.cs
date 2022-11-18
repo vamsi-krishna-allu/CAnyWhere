@@ -9,10 +9,10 @@ namespace CAnyWhere.Services
 {
 	internal interface ClientUserfilesInterface
 	{
-        Task<ObservableCollection<User>> GetAsync();
-        void PostAsync(User model);
-        void UpdateAsync(User model);
-        void DeleteAsync(User model);
+        Task<ObservableCollection<UserFiles>> GetAsync();
+        void PostAsync(UserFiles model);
+        void UpdateAsync(UserFiles model);
+        void DeleteAsync(UserFiles model);
     }
 }
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,12 +14,18 @@ namespace CAnyWhere.Models
         public string FileName { get; set; }
         public string FileLocation { get; set; }
 
+        [JsonIgnore]
+        public string Key { get; set; }
         public UserFiles(string FileId, string UserId, string FileName, string FileLoaction)
         {
             this.FileId = FileId;
             this.UserId = UserId;
             this.FileName = FileName;
             this.FileLocation = FileLoaction;
+        }
+
+        public UserFiles()
+        {
         }
     }
 }

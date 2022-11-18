@@ -14,27 +14,27 @@ namespace CAnyWhere.Services
 	{
         readonly FirebaseClient firebaseClient = new("https://canywhere-ed9ad-default-rtdb.firebaseio.com");
 
-        ObservableCollection<User> DataResponse { get; set; } = new ObservableCollection<User>();
+        ObservableCollection<UserFiles> DataResponse { get; set; } = new ObservableCollection<UserFiles>();
 
-        async void ClientUserfilesInterface.DeleteAsync(User model)
+        async void ClientUserfilesInterface.DeleteAsync(UserFiles model)
         {
             var selected = DataResponse.Where(k => k.Key == model.Key).FirstOrDefault();
 
-            await firebaseClient.Child("User").Child(selected.Key).DeleteAsync();
+            await firebaseClient.Child("UserFiles").Child(selected.Key).DeleteAsync();
 
             DataResponse.Remove(selected);
         }
 
-        async Task<ObservableCollection<User>> ClientUserfilesInterface.GetAsync()
+        async Task<ObservableCollection<UserFiles>> ClientUserfilesInterface.GetAsync()
         {
             var GetItems = (await firebaseClient
-                  .Child("User")
-                  .OnceAsync<User>()).Select(item => new User
+                  .Child("UserFiles")
+                  .OnceAsync<UserFiles>()).Select(item => new UserFiles
                   {
-                      EmailId = item.Object.EmailId,
-                      Name = item.Object.Name,
-                      Password = item.Object.Password,
-                      UserType = item.Object.UserType,
+                      FileId = item.Object.FileId,
+                      UserId = item.Object.UserId,
+                      FileName = item.Object.FileName,
+                      FileLocation = item.Object.FileLocation,
                       Key = item.Key
                   });
 
@@ -46,14 +46,14 @@ namespace CAnyWhere.Services
             return DataResponse;
         }
 
-        async void ClientUserfilesInterface.PostAsync(User model)
+        async void ClientUserfilesInterface.PostAsync(UserFiles model)
         {
-            await firebaseClient.Child("User").PostAsync(new User(model.EmailId, model.Name, model.Password, model.UserType));
+            await firebaseClient.Child("UserFiles").PostAsync(new UserFiles(model.FileId, model.UserId, model.FileName, model.FileLocation));
         }
 
-        async void ClientUserfilesInterface.UpdateAsync(User model)
+        async void ClientUserfilesInterface.UpdateAsync(UserFiles model)
         {
-            await firebaseClient.Child("User").PutAsync(model);
+            await firebaseClient.Child("UserFiles").PutAsync(model);
         }
     }
 }
