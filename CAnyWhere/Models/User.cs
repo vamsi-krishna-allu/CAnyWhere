@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,13 +13,19 @@ namespace CAnyWhere.Models
         public string Name { get; set; }
         public string Password { get; set; }
         public string UserType { get; set; }
+        [JsonIgnore]
+        public string Key { get; set; }
 
-        public User(string Id, string Name, string Password, string UserType)
+        public User(string EmailId, string Name, string Password, string UserType)
         {
-            this.EmailId = Id;
+            this.EmailId = EmailId;
             this.Name = Name;
             this.Password = Password;
             this.UserType = UserType;
+        }
+
+        public User()
+        {
         }
     }
 }

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="6CE925AA-330D-441B-B19A-50284E2A16B8" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="6CE925AA-330D-441B-B19A-50284E2A16B8" Publisher="CN=vamsi" Version="1.0.0.1" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>CAnyWhere</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

@@ -1,4 +1,6 @@
-﻿namespace CAnyWhere.Views;
+﻿using Firebase.Database;
+
+namespace CAnyWhere.Views;
 
 public partial class MainPage : ContentPage
 {

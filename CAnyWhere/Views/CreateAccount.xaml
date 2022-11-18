@@ -15,6 +15,12 @@
        Completed="OnUserNameEntryCompleted"
        ClearButtonVisibility="WhileEditing"/>
 
+            <Entry x:Name="entryemail"
+       Placeholder="Enter Email"
+       TextChanged="OnEmailEntryTextChanged"
+       Completed="OnEmailEntryCompleted"
+       ClearButtonVisibility="WhileEditing"/>
+
             <Entry x:Name="entrypasswordca"
        Placeholder="Enter Password"
        TextChanged="OnPasswordEntryTextChanged"

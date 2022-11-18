@@ -22,8 +22,6 @@
        ClearButtonVisibility="WhileEditing"
                    IsPassword="true"/>
 
-
-
             <Button
                 x:Name="LoginBtn"
                 Text="Login"

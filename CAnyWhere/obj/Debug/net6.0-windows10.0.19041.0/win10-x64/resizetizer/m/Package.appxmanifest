@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
-  <Identity Name="6CE925AA-330D-441B-B19A-50284E2A16B8" Publisher="CN=User Name" Version="1.0.0.1" />
+  <Identity Name="6CE925AA-330D-441B-B19A-50284E2A16B8" Publisher="CN=vamsi" Version="1.0.0.1" />
   <Properties>
     <DisplayName>CAnyWhere</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>

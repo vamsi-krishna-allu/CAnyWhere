@@ -36,5 +36,16 @@ public partial class CreateAccount : ContentPage
     {
         string text = ((Entry)sender).Text;
     }
+
+    void OnEmailEntryTextChanged(object sender, TextChangedEventArgs e)
+    {
+        string text = ((Entry)sender).Text;
+    }
+
+    void OnEmailEntryCompleted(object sender, EventArgs e)
+    {
+        string text = ((Entry)sender).Text;
+    }
+    
 }
 
