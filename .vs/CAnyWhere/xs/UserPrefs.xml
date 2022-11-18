@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{FBB483EE-9D09-4215-B9D3-022D4AB9B83C}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.CAnyWhere PreferredExecutionTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.1.0.1" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_32" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CAnyWhere/Services/ClientUserfilesInterface.cs">
+    <Files>
+      <File FileName="CAnyWhere/Services/LoginClientService.cs" Line="9" Column="30" />
+      <File FileName="CAnyWhere/Services/ILoginClientService.cs" Line="3" Column="1" />
+      <File FileName="CAnyWhere/Services/ClientUserfilesclass.cs" Line="26" Column="10" />
+      <File FileName="CAnyWhere/Services/ClientUserfilesInterface.cs" Line="19" Column="1" />
+      <File FileName="CAnyWhere/Models/UserFiles.cs" />
+      <File FileName="CAnyWhere/Models/User.cs" />
+      <File FileName="CAnyWhere/Views/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="CAnyWhere/Views/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="CAnyWhere/Views/HomeScreen.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CAnyWhere" expanded="True" selected="True">
+            <Node name="CAnyWhere" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HomeScreen.xaml" expanded="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
