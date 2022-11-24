@@ -703,3 +703,11 @@ C:\Users\nares\OneDrive\Desktop\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.
 C:\Users\nares\OneDrive\Desktop\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CAnyWhere.dll
 C:\Users\nares\OneDrive\Desktop\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\refint\CAnyWhere.dll
 C:\Users\nares\OneDrive\Desktop\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CAnyWhere.pdb
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Firebase.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Firebase.Storage.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\LiteDB.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Reactive.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Xamarin.Essentials.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\clrcompression.dll
