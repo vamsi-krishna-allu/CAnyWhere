@@ -77311,24 +77311,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\visha\\.nuget\\packages\\": {},
+    "C:\\Users\\nares\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\CAnyWhere.csproj",
+      "projectUniqueName": "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\CAnyWhere.csproj",
       "projectName": "CAnyWhere",
-      "projectPath": "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\CAnyWhere.csproj",
-      "packagesPath": "C:\\Users\\visha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\obj\\",
+      "projectPath": "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\CAnyWhere.csproj",
+      "packagesPath": "C:\\Users\\nares\\.nuget\\packages\\",
+      "outputPath": "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\visha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nares\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
