@@ -4,18 +4,69 @@
              x:Class="CAnyWhere.Views.HomeScreen">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+        <StackLayout Margin="10">
 
             <Button
                 x:Name="postVideoca"
                 Text="Post Video"
                 Clicked="onPostVideo"
                 HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
+            <CollectionView ItemsSource="{Binding DashBoardDataCollection}" HeightRequest="300">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"  Span="2"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="10">
+                            <Label >
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="SourceUrl:- "  FontAttributes="Bold"/>
+                                        <Span Text="{Binding SourceUrl}" />
+                                        <Span Text=" " />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="PostedDate:- "  FontAttributes="Bold"/>
+                                        <Span Text="{Binding PostedDate}" />
+                                        <Span Text=" " />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Description:- "  FontAttributes="Bold"/>
+                                        <Span Text="{Binding Description}" />
+                                        <Span Text=" " />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="LikeCount:- "  FontAttributes="Bold"/>
+                                        <Span Text="{Binding LikeCount}" />
+                                        <Span Text=" " />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="DislikeCount:- "  FontAttributes="Bold"/>
+                                        <Span Text="{Binding DislikeCount}" />
+                                        <Span Text=" " />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
     </ScrollView>
-
 </ContentPage>

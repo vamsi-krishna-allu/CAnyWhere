@@ -13,13 +13,13 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-
-
+  
     private async void OnLogin(object sender, EventArgs e)
     {
         Task<bool> isValid = LoginViewModel.OnLogin(username, password);
         if (isValid.Result)
         {
+            new DashBoardDataViewModel();
             await Navigation.PushAsync(new HomeScreen());
         }
     }
