@@ -1,45 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CAnyWhere.Views.CreateAccount">
+<ContentPage
+    x:Class="CAnyWhere.Views.CreateAccount"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
     <ScrollView>
         <VerticalStackLayout
-            Spacing="25"
             Padding="30,0"
+            Spacing="25"
             VerticalOptions="Center">
 
-            <Entry x:Name="entryusernameca"
-       Placeholder="Enter Username"
-       TextChanged="OnUserNameEntryTextChanged"
-       Completed="OnUserNameEntryCompleted"
-       ClearButtonVisibility="WhileEditing"/>
+            <Entry
+                x:Name="entryusernameca"
+                ClearButtonVisibility="WhileEditing"
+                Completed="OnUserNameEntryCompleted"
+                Placeholder="Enter Username"
+                TextChanged="OnUserNameEntryTextChanged" />
 
-            <Entry x:Name="entryemail"
-       Placeholder="Enter Email"
-       TextChanged="OnEmailEntryTextChanged"
-       Completed="OnEmailEntryCompleted"
-       ClearButtonVisibility="WhileEditing"/>
+            <Entry
+                x:Name="entryemail"
+                ClearButtonVisibility="WhileEditing"
+                Completed="OnEmailEntryCompleted"
+                Placeholder="Enter Email"
+                TextChanged="OnEmailEntryTextChanged" />
 
-            <Entry x:Name="entrypasswordca"
-       Placeholder="Enter Password"
-       TextChanged="OnPasswordEntryTextChanged"
-       Completed="OnPasswordEntryCompleted" 
-       ClearButtonVisibility="WhileEditing"
-                   IsPassword="true"/>
+            <Entry
+                x:Name="entrypasswordca"
+                ClearButtonVisibility="WhileEditing"
+                Completed="OnPasswordEntryCompleted"
+                IsPassword="true"
+                Placeholder="Enter Password"
+                TextChanged="OnPasswordEntryTextChanged" />
 
-            <Entry x:Name="entrypasswordagainca"
-       Placeholder="Re Enter Password"
-       TextChanged="OnPasswordEntryTextChanged"
-       Completed="OnPasswordEntryCompleted" 
-       ClearButtonVisibility="WhileEditing"
-                   IsPassword="true"/>
+            <Entry
+                x:Name="entrypasswordagainca"
+                ClearButtonVisibility="WhileEditing"
+                Completed="OnPasswordEntryCompleted"
+                IsPassword="true"
+                Placeholder="Re Enter Password"
+                TextChanged="OnPasswordEntryTextChanged" />
+
+            <Picker
+                x:Name="picker"
+                Title="Select usertype"
+                SelectedIndexChanged="OnPickerSelectedIndexChanged">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Admin</x:String>
+                        <x:String>Normal User</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
 
             <Button
                 x:Name="SignUpBtnca"
-                Text="Create Account"
                 Clicked="OnSignUp"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Text="Create Account" />
 
         </VerticalStackLayout>
     </ScrollView>

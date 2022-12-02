@@ -10,7 +10,7 @@ namespace CAnyWhere.Services
 {
     internal interface ILoginClientService
     {
-        Task<ObservableCollection<User>> GetAsync();
+        Task<User> GetAsync(string key);
         void PostAsync(User model);
         void UpdateAsync(User model);
         void DeleteAsync(User model);

@@ -16,7 +16,7 @@ namespace CAnyWhere.Services
 
         ObservableCollection<User> DataResponse { get; set; } = new ObservableCollection<User>();
 
-        async void ILoginClientService.DeleteAsync(User model)
+        public async void DeleteAsync(User model)
         {
             var selected = DataResponse.Where(k => k.Key == model.Key).FirstOrDefault();
 
@@ -25,8 +25,9 @@ namespace CAnyWhere.Services
             DataResponse.Remove(selected);
         }
 
-        async Task<ObservableCollection<User>> ILoginClientService.GetAsync()
+        public async Task<User> GetAsync(string key)
         {
+            User user = new();
             var GetItems = (await firebaseClient
                   .Child("User")
                   .OnceAsync<User>()).Select(item => new User
@@ -40,18 +41,23 @@ namespace CAnyWhere.Services
 
             foreach (var item in GetItems)
             {
-                DataResponse.Add(item);
+                if (item.Key.Equals(key))
+                {
+                    user = item;
+                    break;
+                }
             }
 
-            return DataResponse;
+            return user;
         }
 
-        async void ILoginClientService.PostAsync(User model)
+        public async void PostAsync(User model)
         {
-            await firebaseClient.Child("User").PostAsync(new User(model.EmailId, model.Name, model.Password, model.UserType));
+            model.Key = model.EmailId.Replace("@", "atTheRate").Replace(".", "dot").ToUpper();
+            await firebaseClient.Child("User").Child(model.Key).PutAsync(new User(model.EmailId, model.Name, model.Password, model.UserType));
         }
 
-        async void ILoginClientService.UpdateAsync(User model)
+        public async void UpdateAsync(User model)
         {
             await firebaseClient.Child("User").PutAsync(model);   
         }

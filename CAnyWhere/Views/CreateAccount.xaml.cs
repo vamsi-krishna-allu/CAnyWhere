@@ -1,51 +1,68 @@
-﻿namespace CAnyWhere.Views;
+﻿using CAnyWhere.Models;
+using CAnyWhere.Services;
+
+namespace CAnyWhere.Views;
 
 public partial class CreateAccount : ContentPage
 {
 
-	public CreateAccount()
-	{
-		InitializeComponent();
-	}
+    private string Email;
+    private string Password;
+    private string Name;
+    private string Usertype;
+    public CreateAccount()
+    {
+        InitializeComponent();
+    }
 
     private async void OnSignUp(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new HomeScreen());
+        User user = new(Email, Name, Password, Usertype);
+        LoginClientService LoginClientService = new();
+        LoginClientService.PostAsync(user);
+        await Navigation.PushAsync(new MainPage());
     }
 
     void OnUserNameEntryTextChanged(object sender, TextChangedEventArgs e)
     {
-        string oldText = e.OldTextValue;
-        string newText = e.NewTextValue;
-        string myText = entryusernameca.Text;
+        Name = entryusernameca.Text;
     }
 
     void OnUserNameEntryCompleted(object sender, EventArgs e)
     {
-        string text = ((Entry)sender).Text;
+        Name = ((Entry)sender).Text;
     }
 
     void OnPasswordEntryTextChanged(object sender, TextChangedEventArgs e)
     {
-        string oldText = e.OldTextValue;
-        string newText = e.NewTextValue;
-        string myText = entryusernameca.Text;
+        Password = entrypasswordca.Text;
     }
 
     void OnPasswordEntryCompleted(object sender, EventArgs e)
     {
-        string text = ((Entry)sender).Text;
+        Password = ((Entry)sender).Text;
     }
 
     void OnEmailEntryTextChanged(object sender, TextChangedEventArgs e)
     {
-        string text = ((Entry)sender).Text;
+        Email = ((Entry)sender).Text;
     }
 
     void OnEmailEntryCompleted(object sender, EventArgs e)
     {
-        string text = ((Entry)sender).Text;
+        Email = ((Entry)sender).Text;
     }
-    
+
+    void OnPickerSelectedIndexChanged(object sender, EventArgs e)
+    {
+        var picker = (Picker)sender;
+        int selectedIndex = picker.SelectedIndex;
+
+        if (selectedIndex != -1)
+        {
+            Usertype = (string)picker.ItemsSource[selectedIndex];
+        }
+    }
+
 }
 
