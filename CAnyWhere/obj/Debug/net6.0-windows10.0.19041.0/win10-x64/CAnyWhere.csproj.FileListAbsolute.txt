@@ -1064,3 +1064,7 @@ D:\My_Cambrian\Android_Development\android-Canywhere\CAnyWhere\obj\Debug\net6.0-
 D:\My_Cambrian\Android_Development\android-Canywhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\My_Cambrian\Android_Development\android-Canywhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\My_Cambrian\Android_Development\android-Canywhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MvvmHelpers.dll
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop.scale-100.jpg

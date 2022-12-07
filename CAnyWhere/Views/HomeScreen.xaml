@@ -1,8 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:CAnyWhere.Models"
+             xmlns:viewmodels="clr-namespace:CAnyWhere.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="CAnyWhere.Views.HomeScreen">
 
+    <ContentPage.BindingContext>
+        <viewmodels:DashBoardDataViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+                EventName="Appearing"
+                Command="{Binding PageAppearingCommand}" />
+    </ContentPage.Behaviors>
+    
     <ScrollView>
         <StackLayout Margin="10">
 
@@ -11,59 +24,47 @@
                 Text="Post Video"
                 Clicked="onPostVideo"
                 HorizontalOptions="Center" />
-            <CollectionView ItemsSource="{Binding DashBoardDataCollection}" HeightRequest="300">
-                <CollectionView.ItemsLayout>
-                    <GridItemsLayout Orientation="Vertical"  Span="2"/>
-                </CollectionView.ItemsLayout>
+            <CollectionView ItemsSource="{Binding DashBoardDataCollection}">
                 <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout Margin="10">
-                            <Label >
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="SourceUrl:- "  FontAttributes="Bold"/>
-                                        <Span Text="{Binding SourceUrl}" />
-                                        <Span Text=" " />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <Label>
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="PostedDate:- "  FontAttributes="Bold"/>
-                                        <Span Text="{Binding PostedDate}" />
-                                        <Span Text=" " />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <Label>
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="Description:- "  FontAttributes="Bold"/>
-                                        <Span Text="{Binding Description}" />
-                                        <Span Text=" " />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <Label>
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="LikeCount:- "  FontAttributes="Bold"/>
-                                        <Span Text="{Binding LikeCount}" />
-                                        <Span Text=" " />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <Label>
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="DislikeCount:- "  FontAttributes="Bold"/>
-                                        <Span Text="{Binding DislikeCount}" />
-                                        <Span Text=" " />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                        </StackLayout>
+                    <DataTemplate x:DataType="models:DashBoardData">
+                        <HorizontalStackLayout Padding="10">
+                            <VerticalStackLayout>
+
+                                <HorizontalStackLayout Spacing="4">
+                                    <Label Text="{Binding Description}" 
+                                           FontSize="14" 
+                                           TextColor="RoyalBlue"
+                                           MinimumWidthRequest="200"
+                                         
+                                           />
+                                    <Label Text="{Binding PostedDate}"
+                                           FontSize="14" 
+                                           TextColor="RoyalBlue"
+                                           VerticalOptions="End"
+                                           HorizontalOptions="End"/>
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout>
+                                    <Image Source="{Binding SourceUrl}" MaximumWidthRequest="300"/>
+                                </HorizontalStackLayout>
+
+                                <HorizontalStackLayout Spacing="6">
+                                    <Button Text="Like" 
+                                             BackgroundColor="Green"
+                                                    BorderWidth="5"
+                                                    CornerRadius="5"
+                                            
+                                            />
+                                    <Label Text="{Binding LikeCount}" MinimumWidthRequest="100" FontSize="14" TextColor="OrangeRed"/>
+                                    <Button Text="Dislike" 
+                                                BackgroundColor="Red"
+                                                    BorderWidth="5"
+                                                    CornerRadius="5"
+                                            />
+                                    <Label Text="{Binding DislikeCount}" FontSize="14" TextColor="RoyalBlue"/>
+                                   
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </HorizontalStackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>

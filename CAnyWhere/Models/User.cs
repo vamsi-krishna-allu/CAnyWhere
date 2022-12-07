@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CAnyWhere.Models
 {
-    internal class User
+    public class User
     {
         public string EmailId { get; set; }
         public string Name { get; set; }

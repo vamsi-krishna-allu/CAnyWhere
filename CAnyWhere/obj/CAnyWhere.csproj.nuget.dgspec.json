@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\CAnyWhere.csproj": {}
+    "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\CAnyWhere.csproj": {}
   },
   "projects": {
-    "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\CAnyWhere.csproj": {
+    "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\CAnyWhere.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\CAnyWhere.csproj",
+        "projectUniqueName": "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\CAnyWhere.csproj",
         "projectName": "CAnyWhere",
-        "projectPath": "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\CAnyWhere.csproj",
-        "packagesPath": "C:\\Users\\nares\\.nuget\\packages\\",
-        "outputPath": "D:\\My_Cambrian\\Android_Development\\android-Canywhere\\CAnyWhere\\obj\\",
+        "projectPath": "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\CAnyWhere.csproj",
+        "packagesPath": "C:\\Users\\visha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\visha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,6 +61,10 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -69,9 +73,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -82,6 +86,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -121,6 +129,10 @@
         "net6.0-ios16.0": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -129,9 +141,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -142,6 +154,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -186,6 +202,10 @@
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -194,9 +214,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -207,6 +227,10 @@
               "target": "Package",
               "version": "[6.0.541, )",
               "autoReferenced": true
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -252,6 +276,10 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.1.0, )"
@@ -260,9 +288,9 @@
               "target": "Package",
               "version": "[1.0.3, )"
             },
-            "Microsoft.Extensions.Logging.Abstractions": {
+            "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.Maui.Dependencies": {
               "target": "Package",
@@ -279,6 +307,10 @@
               "target": "Package",
               "version": "[10.0.22000.194, )",
               "autoReferenced": true
+            },
+            "Refractored.MvvmHelpers": {
+              "target": "Package",
+              "version": "[1.6.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

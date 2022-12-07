@@ -183,3 +183,5 @@ Xamarin.Android.Support.SwipeRefreshLayout.dll
 Xamarin.Android.Support.VersionedParcelable.dll
 Xamarin.Android.Support.ViewPager.dll
 Xamarin.Essentials.dll
+CommunityToolkit.Maui.Core.dll
+CommunityToolkit.Maui.dll
