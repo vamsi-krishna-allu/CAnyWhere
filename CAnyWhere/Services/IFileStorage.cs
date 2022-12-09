@@ -8,6 +8,14 @@ namespace CAnyWhere.Services
 {
     internal interface IFileStorage
     {
-        void postAsync(string username);
+        void postPickedPhotoAsync(string username);
+
+        void postPickedVideoAsync(string username);
+
+        void postCapturedPhotoAsync(string username);
+
+        void postCapturedVideoAsync(string username);
+
+        void getImagesAndVideosAsync();
     }
 }
