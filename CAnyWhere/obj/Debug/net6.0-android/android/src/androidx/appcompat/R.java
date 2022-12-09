@@ -584,9 +584,9 @@ public final class R {
 		public static final int btn_radio_off_to_on_mtrl_animation = 0x7f07005c;
 		public static final int btn_radio_on_mtrl = 0x7f07005d;
 		public static final int btn_radio_on_to_off_mtrl_animation = 0x7f07005e;
-		public static final int test_level_drawable = 0x7f07009b;
-		public static final int tooltip_frame_dark = 0x7f07009c;
-		public static final int tooltip_frame_light = 0x7f07009d;
+		public static final int test_level_drawable = 0x7f07009c;
+		public static final int tooltip_frame_dark = 0x7f07009d;
+		public static final int tooltip_frame_light = 0x7f07009e;
 	}
 	public static final class id {
 		public static final int action_bar = 0x7f080034;
@@ -745,7 +745,7 @@ public final class R {
 		public static final int abc_shareactionprovider_share_with = 0x7f0f0018;
 		public static final int abc_shareactionprovider_share_with_application = 0x7f0f0019;
 		public static final int abc_toolbar_collapse_description = 0x7f0f001a;
-		public static final int search_menu_title = 0x7f0f0080;
+		public static final int search_menu_title = 0x7f0f007f;
 	}
 	public static final class style {
 		public static final int AlertDialog_AppCompat = 0x7f100001;
