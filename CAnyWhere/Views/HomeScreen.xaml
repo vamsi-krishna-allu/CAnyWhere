@@ -1,29 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:models="clr-namespace:CAnyWhere.Models"
-             xmlns:viewmodels="clr-namespace:CAnyWhere.ViewModels"
-             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-             x:Class="CAnyWhere.Views.HomeScreen">
+<ContentPage
+    x:Class="CAnyWhere.Views.HomeScreen"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:models="clr-namespace:CAnyWhere.Models"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    xmlns:viewmodels="clr-namespace:CAnyWhere.ViewModels">
 
     <ContentPage.BindingContext>
-        <viewmodels:DashBoardDataViewModel/>
+        <viewmodels:DashBoardDataViewModel />
     </ContentPage.BindingContext>
 
     <ContentPage.Behaviors>
-        <toolkit:EventToCommandBehavior
-                EventName="Appearing"
-                Command="{Binding PageAppearingCommand}" />
+        <toolkit:EventToCommandBehavior Command="{Binding PageAppearingCommand}" EventName="Appearing" />
     </ContentPage.Behaviors>
-    
+
     <ScrollView>
         <StackLayout Margin="10">
 
             <Button
                 x:Name="postVideoca"
-                Text="Post Video"
-                Clicked="onPostVideo"
-                HorizontalOptions="Center" />
+                Clicked="onPostVideoAsync"
+                HorizontalOptions="Center"
+                Text="Post Video/Image" />
             <CollectionView ItemsSource="{Binding DashBoardDataCollection}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:DashBoardData">
@@ -31,37 +30,43 @@
                             <VerticalStackLayout>
 
                                 <HorizontalStackLayout Spacing="4">
-                                    <Label Text="{Binding Description}" 
-                                           FontSize="14" 
-                                           TextColor="RoyalBlue"
-                                           MinimumWidthRequest="200"
-                                         
-                                           />
-                                    <Label Text="{Binding PostedDate}"
-                                           FontSize="14" 
-                                           TextColor="RoyalBlue"
-                                           VerticalOptions="End"
-                                           HorizontalOptions="End"/>
+                                    <Label
+                                        FontSize="14"
+                                        MinimumWidthRequest="200"
+                                        Text="{Binding Description}"
+                                        TextColor="RoyalBlue" />
+                                    <Label
+                                        FontSize="14"
+                                        HorizontalOptions="End"
+                                        Text="{Binding PostedDate}"
+                                        TextColor="RoyalBlue"
+                                        VerticalOptions="End" />
                                 </HorizontalStackLayout>
                                 <HorizontalStackLayout>
-                                    <Image Source="{Binding SourceUrl}" MaximumWidthRequest="300"/>
+                                    <Image MaximumWidthRequest="300" Source="{Binding SourceUrl}" />
                                 </HorizontalStackLayout>
 
                                 <HorizontalStackLayout Spacing="6">
-                                    <Button Text="Like" 
-                                             BackgroundColor="Green"
-                                                    BorderWidth="5"
-                                                    CornerRadius="5"
-                                            
-                                            />
-                                    <Label Text="{Binding LikeCount}" MinimumWidthRequest="100" FontSize="14" TextColor="OrangeRed"/>
-                                    <Button Text="Dislike" 
-                                                BackgroundColor="Red"
-                                                    BorderWidth="5"
-                                                    CornerRadius="5"
-                                            />
-                                    <Label Text="{Binding DislikeCount}" FontSize="14" TextColor="RoyalBlue"/>
-                                   
+                                    <Button
+                                        BackgroundColor="Green"
+                                        BorderWidth="5"
+                                        CornerRadius="5"
+                                        Text="Like" />
+                                    <Label
+                                        FontSize="14"
+                                        MinimumWidthRequest="100"
+                                        Text="{Binding LikeCount}"
+                                        TextColor="OrangeRed" />
+                                    <Button
+                                        BackgroundColor="Red"
+                                        BorderWidth="5"
+                                        CornerRadius="5"
+                                        Text="Dislike" />
+                                    <Label
+                                        FontSize="14"
+                                        Text="{Binding DislikeCount}"
+                                        TextColor="RoyalBlue" />
+
                                 </HorizontalStackLayout>
                             </VerticalStackLayout>
                         </HorizontalStackLayout>
