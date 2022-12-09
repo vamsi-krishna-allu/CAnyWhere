@@ -24,6 +24,8 @@ namespace CAnyWhere.ViewModels
 
         public async Task Refresh()
         {
+            FileStorageService FileStorageService = new();
+            FileStorageService.getImagesAndVideosAsync();
             DashBoardData obj = new();
             obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\stop.jpg";
             obj.PostedDate = "12/5/2022";

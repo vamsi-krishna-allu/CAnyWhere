@@ -32,7 +32,7 @@ public partial class MainPage : ContentPage
                 }
             }
             new DashBoardDataViewModel();
-            await Navigation.PushAsync(new HomeScreen());
+            await Navigation.PushAsync(new HomeScreen(username));
         }
     }
 

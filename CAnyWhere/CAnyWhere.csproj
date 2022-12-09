@@ -58,7 +58,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\PostVideoScreen.xaml.cs">
+	    <DependentUpon>PostVideoScreen.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\CreateAccount.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\PostVideoScreen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\HomeScreen.xaml">

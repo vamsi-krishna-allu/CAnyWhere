@@ -9,6 +9,9 @@
     <MauiXaml Update="Views\CreateAccount.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\PostVideoScreen.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\HomeScreen.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
