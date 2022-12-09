@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CAnyWhere.Views.PostVideoScreen"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="10">
+            <Button
+                x:Name="postImageCaptured"
+                Clicked="onPostCapturedImage"
+                HorizontalOptions="Center"
+                Text="Capture Image" />
+            <Button
+                x:Name="postVideoCaptured"
+                Clicked="onPostCapturedVideo"
+                HorizontalOptions="Center"
+                Text="Capture Video" />
+            <Button
+                x:Name="postImagePicked"
+                Clicked="onPostPickedImage"
+                HorizontalOptions="Center"
+                Text="Pick Image" />
+            <Button
+                x:Name="postVideoPicked"
+                Clicked="onPostPickedVideo"
+                HorizontalOptions="Center"
+                Text="Pick Video" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
