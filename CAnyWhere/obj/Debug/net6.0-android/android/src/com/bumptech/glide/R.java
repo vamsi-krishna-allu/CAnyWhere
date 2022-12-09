@@ -124,7 +124,7 @@ public final class R {
 		public static final int notification_template_part_time = 0x7f0b0070;
 	}
 	public static final class string {
-		public static final int status_bar_notification_info_overflow = 0x7f0f0081;
+		public static final int status_bar_notification_info_overflow = 0x7f0f0080;
 	}
 	public static final class style {
 		public static final int TextAppearance_Compat_Notification = 0x7f1001bb;
