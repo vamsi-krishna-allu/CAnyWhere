@@ -47,6 +47,12 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
+	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\back.jpg.avif" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Resources\Images\back.jpg.avif" />
+	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="2.0.0" />

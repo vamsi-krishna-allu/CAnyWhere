@@ -2,43 +2,89 @@
 <ContentPage
     x:Class="CAnyWhere.Views.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundImageSource="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\Resources\Images\keepaneye.jpg">
+
+
 
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
             VerticalOptions="Center">
+            <Border
+                Padding="16,8"
+                Background="#2B0B98"
+                HorizontalOptions="Center"
+                StrokeShape="RoundRectangle 40,0,0,40"
+                StrokeThickness="4">
+                <Border.Stroke>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Offset="0.1" Color="Orange" />
+                        <GradientStop Offset="1.0" Color="Brown" />
+                    </LinearGradientBrush>
+                </Border.Stroke>
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    Text="CAnywhere"
+                    TextColor="White" />
+            </Border>
+
+            <Frame
+                Margin="10"
+                BorderColor="Black"
+                CornerRadius="50"
+                HeightRequest="60"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                VerticalOptions="Center"
+                WidthRequest="60">
+                <Image
+                    Margin="-20"
+                    Aspect="AspectFill"
+                    HeightRequest="100"
+                    Source="background.jpg"
+                    WidthRequest="100" />
+            </Frame>
 
             <Entry
                 x:Name="entryusername"
+                BackgroundColor="Gray"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnUserNameEntryCompleted"
                 Placeholder="Enter Username"
-                TextChanged="OnUserNameEntryTextChanged" />
+                TextChanged="OnUserNameEntryTextChanged"
+                TextColor="Black" />
 
             <Entry
                 x:Name="entrypassword"
+                BackgroundColor="Gray"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnPasswordEntryCompleted"
                 IsPassword="true"
                 Placeholder="Enter Password"
-                TextChanged="OnPasswordEntryTextChanged" />
+                TextChanged="OnPasswordEntryTextChanged"
+                TextColor="Black" />
 
             <Button
                 x:Name="LoginBtn"
+                BackgroundColor="White"
                 Clicked="OnLogin"
                 HorizontalOptions="Center"
-                Text="Login" />
+                Text="Login"
+                TextColor="Green" />
 
 
             <Button
                 x:Name="SignUpBtn"
+                BackgroundColor="White"
                 Clicked="OnSignUp"
                 HorizontalOptions="Center"
-                Text="Create Account" />
-
+                Text="Create Account"
+                TextColor="Red" />
         </VerticalStackLayout>
     </ScrollView>
 
 </ContentPage>
+

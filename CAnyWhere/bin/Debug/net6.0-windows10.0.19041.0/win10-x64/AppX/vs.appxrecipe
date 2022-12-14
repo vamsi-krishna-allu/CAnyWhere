@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-08T05:11:25.585</Modified>
+      <Modified>2022-12-14T17:08:31.264</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-08T05:11:24.852</Modified>
+      <Modified>2022-12-14T17:08:30.741</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CAnyWhere.runtimeconfig.json">
       <PackagePath>CAnyWhere.runtimeconfig.json</PackagePath>
-      <Modified>2022-12-01T03:52:21.683</Modified>
+      <Modified>2022-12-09T17:58:00.667</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CAnyWhere.dll">
       <PackagePath>CAnyWhere.dll</PackagePath>
-      <Modified>2022-12-08T05:11:23.763</Modified>
+      <Modified>2022-12-14T17:08:29.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CAnyWhere.exe</PackagePath>
-      <Modified>2022-12-08T05:11:23.773</Modified>
+      <Modified>2022-12-14T17:08:29.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1108,7 +1108,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\CAnyWhere.deps.json">
       <PackagePath>CAnyWhere.deps.json</PackagePath>
-      <Modified>2022-12-08T05:11:25.443</Modified>
+      <Modified>2022-12-14T17:08:31.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1156,147 +1156,163 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-12-01T04:05:54.144</Modified>
+      <Modified>2022-12-14T16:45:39.444</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.320</Modified>
+      <Modified>2022-12-14T16:45:39.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.331</Modified>
+      <Modified>2022-12-14T16:45:39.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.341</Modified>
+      <Modified>2022-12-14T16:45:39.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.358</Modified>
+      <Modified>2022-12-14T16:45:39.659</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.422</Modified>
+      <Modified>2022-12-14T16:45:39.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.157</Modified>
+      <Modified>2022-12-14T16:45:39.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.159</Modified>
+      <Modified>2022-12-14T16:45:39.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.162</Modified>
+      <Modified>2022-12-14T16:45:39.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.165</Modified>
+      <Modified>2022-12-14T16:45:39.461</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.169</Modified>
+      <Modified>2022-12-14T16:45:39.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.210</Modified>
+      <Modified>2022-12-14T16:45:39.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.215</Modified>
+      <Modified>2022-12-14T16:45:39.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.222</Modified>
+      <Modified>2022-12-14T16:45:39.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.230</Modified>
+      <Modified>2022-12-14T16:45:39.522</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.246</Modified>
+      <Modified>2022-12-14T16:45:39.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.189</Modified>
+      <Modified>2022-12-14T16:45:39.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.192</Modified>
+      <Modified>2022-12-14T16:45:39.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.195</Modified>
+      <Modified>2022-12-14T16:45:39.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.199</Modified>
+      <Modified>2022-12-14T16:45:39.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.206</Modified>
+      <Modified>2022-12-14T16:45:39.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.172</Modified>
+      <Modified>2022-12-14T16:45:39.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.175</Modified>
+      <Modified>2022-12-14T16:45:39.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.178</Modified>
+      <Modified>2022-12-14T16:45:39.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.181</Modified>
+      <Modified>2022-12-14T16:45:39.477</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.186</Modified>
+      <Modified>2022-12-14T16:45:39.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.252</Modified>
+      <Modified>2022-12-14T16:45:39.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.260</Modified>
+      <Modified>2022-12-14T16:45:39.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.268</Modified>
+      <Modified>2022-12-14T16:45:39.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.280</Modified>
+      <Modified>2022-12-14T16:45:39.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.312</Modified>
+      <Modified>2022-12-14T16:45:39.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.jpg">
+      <PackagePath>background.scale-100.jpg</PackagePath>
+      <Modified>2022-12-14T16:02:59.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background3.scale-100">
+      <PackagePath>background3.scale-100</PackagePath>
+      <Modified>2022-12-14T16:26:16.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.140</Modified>
+      <Modified>2022-12-14T16:45:39.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.169</Modified>
+      <Modified>2022-12-14T16:45:39.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.208</Modified>
+      <Modified>2022-12-14T16:45:39.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.270</Modified>
+      <Modified>2022-12-14T16:45:39.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-12-01T04:05:54.466</Modified>
+      <Modified>2022-12-14T16:45:39.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\keepaneye.scale-100.jpg">
+      <PackagePath>keepaneye.scale-100.jpg</PackagePath>
+      <Modified>2022-12-14T16:45:05.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\keepaneye.scale-100.png">
+      <PackagePath>keepaneye.scale-100.png</PackagePath>
+      <Modified>2022-12-14T16:42:21.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop.scale-100.jpg">
       <PackagePath>stop.scale-100.jpg</PackagePath>

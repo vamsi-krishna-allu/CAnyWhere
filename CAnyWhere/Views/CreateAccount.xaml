@@ -2,27 +2,47 @@
 <ContentPage
     x:Class="CAnyWhere.Views.CreateAccount"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundImageSource="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\Resources\Images\keepaneye.jpg">
     <ScrollView>
+
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25"
             VerticalOptions="Center">
-
+            <Border
+                Padding="16,8"
+                Background="#2B0B98"
+                HorizontalOptions="Center"
+                StrokeShape="RoundRectangle 40,0,0,40"
+                StrokeThickness="4">
+                <Border.Stroke>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Offset="0.1" Color="Orange" />
+                        <GradientStop Offset="1.0" Color="Brown" />
+                    </LinearGradientBrush>
+                </Border.Stroke>
+                <Label
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    Text="CAnywhere"
+                    TextColor="White" />
+            </Border>
             <Entry
                 x:Name="entryusernameca"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnUserNameEntryCompleted"
                 Placeholder="Enter Username"
-                TextChanged="OnUserNameEntryTextChanged" />
+                TextChanged="OnUserNameEntryTextChanged"
+                TextColor="Black" />
 
             <Entry
                 x:Name="entryemail"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnEmailEntryCompleted"
                 Placeholder="Enter Email"
-                TextChanged="OnEmailEntryTextChanged" />
+                TextChanged="OnEmailEntryTextChanged"
+                TextColor="Black" />
 
             <Entry
                 x:Name="entrypasswordca"
@@ -30,7 +50,8 @@
                 Completed="OnPasswordEntryCompleted"
                 IsPassword="true"
                 Placeholder="Enter Password"
-                TextChanged="OnPasswordEntryTextChanged" />
+                TextChanged="OnPasswordEntryTextChanged"
+                TextColor="Black" />
 
             <Entry
                 x:Name="entrypasswordagainca"
@@ -38,7 +59,8 @@
                 Completed="OnPasswordEntryCompleted"
                 IsPassword="true"
                 Placeholder="Re Enter Password"
-                TextChanged="OnPasswordEntryTextChanged" />
+                TextChanged="OnPasswordEntryTextChanged"
+                TextColor="Black" />
 
             <Picker
                 x:Name="picker"

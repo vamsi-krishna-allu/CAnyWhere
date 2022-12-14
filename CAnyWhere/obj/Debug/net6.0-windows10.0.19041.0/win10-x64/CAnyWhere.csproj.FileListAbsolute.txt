@@ -1068,3 +1068,7 @@ C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows1
 C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
 C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\MvvmHelpers.dll
 C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop.scale-100.jpg
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.jpg
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background3.scale-100
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\keepaneye.scale-100.png
+C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\keepaneye.scale-100.jpg
