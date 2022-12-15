@@ -3,6 +3,7 @@
     x:Class="CAnyWhere.Views.CreateAccount"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="Transparent"
     BackgroundImageSource="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\Resources\Images\keepaneye.jpg">
     <ScrollView>
 
@@ -30,24 +31,30 @@
             </Border>
             <Entry
                 x:Name="entryusernameca"
+                BackgroundColor="Gray"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnUserNameEntryCompleted"
+                FontSize="Medium"
                 Placeholder="Enter Username"
                 TextChanged="OnUserNameEntryTextChanged"
                 TextColor="Black" />
 
             <Entry
                 x:Name="entryemail"
+                BackgroundColor="Gray"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnEmailEntryCompleted"
+                FontSize="Medium"
                 Placeholder="Enter Email"
                 TextChanged="OnEmailEntryTextChanged"
                 TextColor="Black" />
 
             <Entry
                 x:Name="entrypasswordca"
+                BackgroundColor="Gray"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnPasswordEntryCompleted"
+                FontSize="Medium"
                 IsPassword="true"
                 Placeholder="Enter Password"
                 TextChanged="OnPasswordEntryTextChanged"
@@ -55,8 +62,10 @@
 
             <Entry
                 x:Name="entrypasswordagainca"
+                BackgroundColor="Gray"
                 ClearButtonVisibility="WhileEditing"
                 Completed="OnPasswordEntryCompleted"
+                FontSize="Medium"
                 IsPassword="true"
                 Placeholder="Re Enter Password"
                 TextChanged="OnPasswordEntryTextChanged"
@@ -65,7 +74,10 @@
             <Picker
                 x:Name="picker"
                 Title="Select usertype"
-                SelectedIndexChanged="OnPickerSelectedIndexChanged">
+                BackgroundColor="Gray"
+                FontSize="Medium"
+                SelectedIndexChanged="OnPickerSelectedIndexChanged"
+                TitleColor="White">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>Admin</x:String>
@@ -76,9 +88,12 @@
 
             <Button
                 x:Name="SignUpBtnca"
+                BackgroundColor="White"
                 Clicked="OnSignUp"
+                FontSize="Medium"
                 HorizontalOptions="Center"
-                Text="Create Account" />
+                Text="Create Account"
+                TextColor="Green" />
 
         </VerticalStackLayout>
     </ScrollView>

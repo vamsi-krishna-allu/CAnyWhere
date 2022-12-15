@@ -51,7 +51,13 @@
 	  <MauiImage Remove="Resources\Images\back.jpg.avif" />
 	</ItemGroup>
 	<ItemGroup>
+	  <None Remove="Resources\Images\accident2.png" />
+	  <None Remove="Resources\Images\accidents1.png" />
 	  <None Remove="Resources\Images\back.jpg.avif" />
+	  <None Remove="Resources\Images\bullying1.png" />
+	  <None Remove="Resources\Images\bullying2.png" />
+	  <None Remove="Resources\Images\harrasment1.png" />
+	  <None Remove="Resources\Images\ragging1.png" />
 	</ItemGroup>
 
 	<ItemGroup>

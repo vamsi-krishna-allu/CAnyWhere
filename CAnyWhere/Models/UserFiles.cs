@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CAnyWhere.Models
 {
-    internal class UserFiles
+    public class UserFiles
     {
         public string FileId { get; set; }
         public string UserId { get; set; }

@@ -865,6 +865,12 @@
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\accident2.scale-100.png">
+      <PackagePath>accident2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\accidents1.scale-100.png">
+      <PackagePath>accidents1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
@@ -964,6 +970,12 @@
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\background3.scale-100">
       <PackagePath>background3.scale-100</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bullying1.scale-100.png">
+      <PackagePath>bullying1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\bullying2.scale-100.png">
+      <PackagePath>bullying2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -979,11 +991,17 @@
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\harrasment1.scale-100.png">
+      <PackagePath>harrasment1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\keepaneye.scale-100.jpg">
       <PackagePath>keepaneye.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\keepaneye.scale-100.png">
       <PackagePath>keepaneye.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ragging1.scale-100.png">
+      <PackagePath>ragging1.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\visha\source\FinalProject\CAnyWhere\CAnyWhere\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\stop.scale-100.jpg">
       <PackagePath>stop.scale-100.jpg</PackagePath>

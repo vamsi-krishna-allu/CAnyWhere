@@ -28,6 +28,9 @@ public partial class MainPage : ContentPage
             {
                 if (!user.EmailId.Equals(username) || !user.Password.Equals(password))
                 {
+                    await Application.Current.
+                        MainPage.DisplayAlert("Error", "Username and password " +
+                        "doesnot match. Please try again", "OK");
                     return;
                 }
             }
