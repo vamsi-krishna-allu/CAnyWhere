@@ -2,12 +2,7 @@
 using CAnyWhere.Services;
 using MvvmHelpers;
 using MvvmHelpers.Commands;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CAnyWhere.ViewModels
 {
@@ -25,9 +20,20 @@ namespace CAnyWhere.ViewModels
         public async Task Refresh()
         {
             FileStorageService FileStorageService = new();
-            FileStorageService.getImagesAndVideosAsync();
+            ObservableCollection<string> urls = await FileStorageService.getImagesAndVideosAsync();
             DashBoardData obj = new();
-            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\stop.jpg";
+
+            foreach (string url in urls)
+            {
+                obj.SourceUrl = url;
+                obj.PostedDate = "12/5/2022";
+                obj.Description = "harrasment";
+                obj.LikeCount = "10";
+                obj.DislikeCount = "2";
+                DashBoardDataCollection.Add(obj);
+            }
+
+            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\accident2.png";
             obj.PostedDate = "12/5/2022";
             obj.Description = "harrasment";
             obj.LikeCount = "10";
@@ -35,7 +41,7 @@ namespace CAnyWhere.ViewModels
             DashBoardDataCollection.Add(obj);
 
             obj = new();
-            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\stop.jpg";
+            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\bullying1.png";
             obj.PostedDate = "12/5/2032";
             obj.Description = "Ragging";
             obj.LikeCount = "15";
@@ -43,7 +49,7 @@ namespace CAnyWhere.ViewModels
             DashBoardDataCollection.Add(obj);
 
             obj = new();
-            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\stop.jpg";
+            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\bullying2.png";
             obj.PostedDate = "11/12/2022";
             obj.Description = "Bullying";
             obj.LikeCount = "15";
@@ -51,7 +57,7 @@ namespace CAnyWhere.ViewModels
             DashBoardDataCollection.Add(obj);
 
             obj = new();
-            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\stop.jpg";
+            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\ragging1.png";
             obj.PostedDate = "1/2/2022";
             obj.Description = "RoomMateIssue";
             obj.LikeCount = "25";
@@ -59,7 +65,7 @@ namespace CAnyWhere.ViewModels
             DashBoardDataCollection.Add(obj);
 
             obj = new();
-            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\stop.jpg";
+            obj.SourceUrl = "C:\\Users\\visha\\source\\FinalProject\\CAnyWhere\\CAnyWhere\\Resources\\Images\\harrasment1.png";
             obj.PostedDate = "11/1/2022";
             obj.Description = "Accidents";
             obj.LikeCount = "35";
