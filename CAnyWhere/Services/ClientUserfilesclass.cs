@@ -16,7 +16,7 @@ namespace CAnyWhere.Services
 
         ObservableCollection<UserFiles> DataResponse { get; set; } = new ObservableCollection<UserFiles>();
 
-        async void ClientUserfilesInterface.DeleteAsync(UserFiles model)
+        public async void DeleteAsync(UserFiles model)
         {
             var selected = DataResponse.Where(k => k.Key == model.Key).FirstOrDefault();
 
@@ -25,7 +25,7 @@ namespace CAnyWhere.Services
             DataResponse.Remove(selected);
         }
 
-        async Task<ObservableCollection<UserFiles>> ClientUserfilesInterface.GetAsync()
+        public async Task<ObservableCollection<UserFiles>> GetAsync()
         {
             var GetItems = (await firebaseClient
                   .Child("UserFiles")
@@ -46,12 +46,12 @@ namespace CAnyWhere.Services
             return DataResponse;
         }
 
-        async void ClientUserfilesInterface.PostAsync(UserFiles model)
+        public async void PostAsync(UserFiles model)
         {
             await firebaseClient.Child("UserFiles").PostAsync(new UserFiles(model.FileId, model.UserId, model.FileName, model.FileLocation));
         }
 
-        async void ClientUserfilesInterface.UpdateAsync(UserFiles model)
+        public async void UpdateAsync(UserFiles model)
         {
             await firebaseClient.Child("UserFiles").PutAsync(model);
         }
