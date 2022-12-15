@@ -26,6 +26,17 @@
                 Clicked="onPostPickedVideo"
                 HorizontalOptions="Center"
                 Text="Pick Video" />
+
+            <Entry
+                x:Name="entryfilename"
+                BackgroundColor="Gray"
+                ClearButtonVisibility="WhileEditing"
+                Completed="OnFileNameEntryCompleted"
+                Placeholder="Enter Filename"
+                TextChanged="OnFileNameEntryTextChanged"
+                TextColor="Black" />
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
